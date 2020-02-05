@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "node_modules/phonegap/bin/phonegap.js serve",
-    "patchup": "cables -c -i -d 'www' -e b3XW9W",
+    "start": "node_modules/phonegap/bin/phonegap.js serve",
+    "patchup": "cables -c -i -d 'www' -e ##patchId##",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
